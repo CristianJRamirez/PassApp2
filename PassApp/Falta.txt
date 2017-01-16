@@ -1,0 +1,5 @@
+-> mejorar interfaz
+
+-> hacer que seaun ejecutable 
+-> poner la ruta del programa y de los archivos
+-> crear usuario y contraseña

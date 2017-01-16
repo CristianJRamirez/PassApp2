@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Prueba-->
+<Pass>
+  <Pass>
+    <PaginaApp>facebook</PaginaApp>
+    <user>cj2394@hotmail.com</user>
+    <password>killzone-23</password>
+    <correo>cj2394@hotmail.com</correo>
+    <other>facebook: cristian javier ramirez arroyo</other>
+  </Pass>
+  <Pass>
+    <PaginaApp>Apple ICloud</PaginaApp>
+    <user>crisj23</user>
+    <password>Killzone-23</password>
+    <correo>crisj23@icloud.com</correo>
+    <other>Apple-ICloud</other>
+  </Pass>
+</Pass>
