@@ -19,6 +19,7 @@ namespace PassAppv2
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new ControlUsuario());
             */
+
             
         }
     }
