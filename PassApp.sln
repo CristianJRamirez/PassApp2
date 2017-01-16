@@ -1,7 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PassApp", "PassApp\PassApp.csproj", "{9744A705-97A9-4467-851B-9219715776EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PassAppv2", "PassAppv2\PassAppv2.csproj", "{5E68618E-371D-47FB-8B50-DFA3EAAC506B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserControlv2", "UserControlv2\UserControlv2.csproj", "{A17DEF6C-47E7-4A1D-A3A4-443C4C1999AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +19,14 @@ Global
 		{9744A705-97A9-4467-851B-9219715776EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9744A705-97A9-4467-851B-9219715776EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9744A705-97A9-4467-851B-9219715776EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E68618E-371D-47FB-8B50-DFA3EAAC506B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E68618E-371D-47FB-8B50-DFA3EAAC506B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E68618E-371D-47FB-8B50-DFA3EAAC506B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E68618E-371D-47FB-8B50-DFA3EAAC506B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A17DEF6C-47E7-4A1D-A3A4-443C4C1999AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A17DEF6C-47E7-4A1D-A3A4-443C4C1999AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A17DEF6C-47E7-4A1D-A3A4-443C4C1999AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A17DEF6C-47E7-4A1D-A3A4-443C4C1999AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
