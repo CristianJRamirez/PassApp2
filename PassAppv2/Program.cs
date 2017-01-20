@@ -19,13 +19,17 @@ namespace PassAppv2
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            Application.Run(new ControlUsuario());
+            //Application.Run(new ControlUsuario());
 
-            
-            if (ControlUsuario.getAcceso())
+            do
             {
-                Application.Run(new Form1());
+
+                    Application.Run(new ControlUsuario());
+
+            }while (!ControlUsuario.getAcceso()) ; ;
+                Form1 form = new Form1();
+                form.ShowDialog();
+
             }
-        }
     }
 }

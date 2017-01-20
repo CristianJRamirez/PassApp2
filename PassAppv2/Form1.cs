@@ -26,8 +26,14 @@ namespace PassAppv2
            // UserControl.ControlUser cr = UserControl.ControlUser();
 
             
-            ControlUsuario CU = new ControlUsuario();
-            CU.ShowDialog();
+            /*ControlUsuario CU = new ControlUsuario();
+            CU.ShowDialog();*/
+
+           
+
+            
+
+          
 
         }
     }

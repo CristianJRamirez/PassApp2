@@ -25,14 +25,15 @@ namespace UserControlv2
         private void btOK_Click(object sender, EventArgs e)
         {
             comprovarDatos();
+            
 
         }
 
         private void comprovarDatos()
         {
             bool ok = true;
-            do
-            {
+           /* do
+            {*/
                 if (!string.IsNullOrWhiteSpace(txtUserControl.Text) && (!string.IsNullOrWhiteSpace(txtPassControl.Text)))
                 {
                     if ((txtUserControl.Text == user) && (txtPassControl.Text == pass))
@@ -54,7 +55,7 @@ namespace UserControlv2
                     txtPassControl.Text = string.Empty;
                     acceso= false;
                 }
-            } while (ok);
+           // } while (ok);
             this.Close();
         }
 
